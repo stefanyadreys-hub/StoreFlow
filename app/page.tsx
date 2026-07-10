@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-8">
@@ -9,9 +11,12 @@ export default function Home() {
         Gerencie sua loja de forma simples, organizada e inteligente.
       </p>
 
-      <button className="mt-8 rounded-lg bg-black px-6 py-3 text-white hover:bg-gray-800">
+      <Link
+        href="/produtos"
+        className="mt-8 rounded-lg bg-black px-6 py-3 text-white hover:bg-gray-800"
+      >
         Ver produtos
-      </button>
+      </Link>
     </main>
   );
 }

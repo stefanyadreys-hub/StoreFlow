@@ -1,23 +1,4 @@
-const produtos = [
-  {
-    nome: "Vestido Curto Soltinho",
-    categoria: "Vestidos",
-    preco: "R$ 39,90",
-    descricao: "Vestido confortável com short interno.",
-  },
-  {
-    nome: "Bata Canelada",
-    categoria: "Blusas",
-    preco: "R$ 25,00",
-    descricao: "Bata feminina básica e versátil.",
-  },
-  {
-    nome: "Short Linho Masculino",
-    categoria: "Masculino",
-    preco: "R$ 49,90",
-    descricao: "Short leve para o dia a dia.",
-  },
-];
+import { produtos } from "../../data/produtos";
 
 export default function Produtos() {
   return (
